@@ -19,19 +19,7 @@ test:
   timeout: 5000
 
 production:
-  adapter: postgresql
-  encoding: unicode
-  database: dd6b2s88v93lgs
+  adapter: sqlite3
+  database: db/production.sqlite3
   pool: 5
-  password: qXHouIZ8nQOr2CgHtb2yriC6py
-
-
-# OLD:
-# test:
-#   adapter: postgresql
-#   database: db/test.sqlite3
-#   pool: 5
-#   timeout: 5000
-
-# production:
-#   adapter: postgresql
+  timeout: 5000
