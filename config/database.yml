@@ -25,6 +25,13 @@ production:
   pool: 5
   password: hDt1xD6zuP5QI40JpDgzprGgW7
 
+demo:
+  adapter: postgresql
+  encoding: unicode
+  database: dalabgpuo2path 
+  pool: 5
+  password: NC0-dn_-ApkT56ufXOw-t3DWbY 
+
 
 # OLD:
 # test:
